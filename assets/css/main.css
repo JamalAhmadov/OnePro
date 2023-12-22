@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+}
+header ul li .active {
+  color: #26B7E7 !important;
+}
+header ul li a {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+header ul li a:hover {
+  color: #26B7E7 !important;
+}
+
+#welcome {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(130, 130, 130, 0.826), rgba(151, 151, 151, 0.839)), url("/assets/images/slide_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome .welcome-text {
+  color: white;
+}
+#welcome .welcome-text h4 {
+  font-size: 20px;
+}
+#welcome .welcome-text h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+#welcome .welcome-text .home-button {
+  background: #26b7e7;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 250px;
+}
+#welcome .welcome-text .home-button a {
+  color: white;
+}
+
+#dataArea {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#dataArea .dataAreaBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#dataArea .dataAreaBox input {
+  margin: 10px;
+}
+#dataArea .dataAreaBox #container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: auto;
+  width: 80%;
+  height: 400px;
+  gap: 10px;
+}
+#dataArea .dataAreaBox #container .cart {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#dataArea .dataAreaBox #container .cart h3 {
+  font-size: 17px;
+}
+#dataArea .dataAreaBox #container .cart p {
+  font-size: 13px;
+}
+#dataArea .dataAreaBox #container .cart button {
+  background: #26b7e7;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px 29px;
+  text-transform: uppercase;
+  border: none;
+}
+#dataArea .dataAreaBox button {
+  margin: 10px 0px;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #26b7e7;
+  border: 1px solid #26b7e7;
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px 29px;
+  text-transform: uppercase;
+}
+#dataArea .dataAreaBox button:hover {
+  background-color: #26B7E7;
+  color: #ffffff;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 180vh;
+  background-color: #EEEEEE;
+  padding: 20px 0px;
+}
+#projects .projectsText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects .projectsText h2 {
+  font-weight: 700;
+  line-height: 1.4em;
+  color: #292929;
+}
+#projects .projectsText p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+#projects .projectsText .line {
+  width: 30px;
+  height: 2px;
+  background-color: #26B7E7;
+  margin: 10px 0px;
+}
+#projects .projectsMenu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#projects .projectsMenu ul {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+}
+#projects .projectsMenu ul li {
+  margin: 0px 9px;
+}
+#projects .projectsMenu ul a {
+  color: black !important;
+}
+#projects .image {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+}
+#projects .image img {
+  width: 100%;
+  height: auto;
+}
+
+#ourTeam {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourTeam .teamText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ourTeam .teamText h2 {
+  font-weight: 700;
+  line-height: 1.4em;
+  color: #292929;
+}
+#ourTeam .teamText p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+#ourTeam .teamText .line {
+  width: 30px;
+  height: 2px;
+  background-color: #26B7E7;
+  margin: 10px 0px;
+}
+#ourTeam .teamBox {
+  width: 100%;
+  padding: 0px 10px;
+}
+#ourTeam .teamBox .teamImage img {
+  width: 100%;
+}
+#ourTeam .teamBox .teamName {
+  background-color: #26B7E7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 5px;
+  color: white;
+}
+#ourTeam .teamBox .teamName h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+#ourTeam .teamBox .teamName h4 {
+  font-size: 15px;
+}
+
+.blockDiv {
+  width: 100%;
+  height: 80px;
+}
+
+#bskcontainer {
+  width: 100%;
+  min-height: 81vh;
+}
+#bskcontainer .myCard {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#bskcontainer .myCard .about {
+  width: 70%;
+}
+#bskcontainer .myCard button {
+  background-color: purple;
+  color: white;
+  padding: 5px 15px;
+  border: 0;
+}
+
+#formSection {
+  width: 100%;
+  min-height: 92vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#formSection #userForm {
+  margin: auto;
+  width: 40%;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background-color: #272727 !important;
+    border-bottom: 1px solid red;
+  }
+  header li a {
+    color: white !important;
+  }
+  .teamName h3 {
+    font-size: 12px !important;
+  }
+  .teamName h5 {
+    font-size: 10px !important;
+  }
+  .projectsMenu ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px !important;
+    font-weight: 500;
+  }
+  .projectsMenu ul li {
+    margin: 7px !important;
+  }
+  .projectsMenu ul a {
+    color: black !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projectsMenu ul li {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .projectsMenu ul {
+    flex-direction: column;
+  }
+}
